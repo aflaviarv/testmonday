@@ -3,12 +3,18 @@
   "email": "afafy1010@gmail.com",
   "version": "1.0.0",
   "description": "Testagem de api do monday",
+  "dependencies": {
+    "esm": "^3.2.25",
+    "monday-sdk-js": "^0.1.1"
+  },
+  "devDependencies": {},
   "main": "index.js",
   "scripts": {
-    "test": "exit 0"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node -r esm src/app.js"
   },
   "author": "proserv",
-  "license": "UNLICENSED",
+  "license": "ISC",
   "publishConfig": {
     "aflaviarv:registry": "https://npm.pkg.github.com"
   }
