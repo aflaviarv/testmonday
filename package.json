@@ -1,5 +1,6 @@
 {
   "name": "testmonday",
+  "email": "afafy1010@gmail.com",
   "version": "1.0.0",
   "description": "Testagem de api do monday",
   "main": "index.js",
@@ -7,5 +8,8 @@
     "test": "exit 0"
   },
   "author": "proserv",
-  "license": "ISC"
+  "license": "UNLICENSED",
+  "publishConfig": {
+    "aflaviarv:registry": "https://npm.pkg.github.com"
+  }
 }
